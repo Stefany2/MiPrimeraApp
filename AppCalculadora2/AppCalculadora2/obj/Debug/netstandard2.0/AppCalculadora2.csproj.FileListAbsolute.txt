@@ -1,0 +1,15 @@
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\bin\Debug\netstandard2.0\AppCalculadora2.deps.json
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\bin\Debug\netstandard2.0\AppCalculadora2.dll
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\bin\Debug\netstandard2.0\ref\AppCalculadora2.dll
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\bin\Debug\netstandard2.0\AppCalculadora2.pdb
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\obj\Debug\netstandard2.0\AppCalculadora2.csproj.AssemblyReference.cache
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\obj\Debug\netstandard2.0\AppCalculadora2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\obj\Debug\netstandard2.0\AppCalculadora2.AssemblyInfoInputs.cache
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\obj\Debug\netstandard2.0\AppCalculadora2.AssemblyInfo.cs
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\obj\Debug\netstandard2.0\AppCalculadora2.csproj.CoreCompileInputs.cache
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\obj\Debug\netstandard2.0\AppCalculadora2.dll
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\obj\Debug\netstandard2.0\refint\AppCalculadora2.dll
+C:\Users\Stefany Paulino\Downloads\AppCalculadora2\AppCalculadora2\AppCalculadora2\obj\Debug\netstandard2.0\AppCalculadora2.pdb

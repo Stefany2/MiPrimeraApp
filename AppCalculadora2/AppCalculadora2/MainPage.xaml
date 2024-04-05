@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCalculadora2.MainPage"
+             
+             Title="Calculadora">
+
+    <ContentPage.Content>
+
+
+        <AbsoluteLayout>
+
+            <!-- Imagen de fondo -->
+            <Image Source="icono.jpg" Aspect="AspectFill" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1" />
+
+            <!-- Contenido de la página -->
+            <StackLayout Padding="20" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1">
+
+                <Label x:Name="pantalla" Text="0" FontSize="60" HorizontalOptions="End" TextColor="White" VerticalOptions="EndAndExpand" Margin="0,0,0,15" />
+                <Label x:Name="resultado" Text="" FontSize="30" HorizontalOptions="End" TextColor="White" VerticalOptions="EndAndExpand" Margin="0,0,0,15" />
+
+                <Grid Margin="0,10,0,0" VerticalOptions="Start">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Botones numéricos -->
+                    <Button Text="1" Clicked="OnButtonClicked" Grid.Row="4" Grid.Column="0"
+        BackgroundColor="#AFEEEE" TextColor="Black" CornerRadius="20" FontSize="27" />
+
+                    <Button Text="2" Clicked="OnButtonClicked" Grid.Row="4" Grid.Column="1"
+        BackgroundColor="#AFEEEE" TextColor="Black" CornerRadius="20" FontSize="27" />
+
+                    <Button Text="3" Clicked="OnButtonClicked" Grid.Row="4" Grid.Column="2"
+        BackgroundColor="#AFEEEE" TextColor="Black" CornerRadius="20" FontSize="27" />
+
+                    <Button Text="4" Clicked="OnButtonClicked" Grid.Row="3" Grid.Column="0"
+        BackgroundColor="#AFEEEE" TextColor="Black" CornerRadius="20" FontSize="27" />
+
+                    <Button Text="5" Clicked="OnButtonClicked" Grid.Row="3" Grid.Column="1"
+        BackgroundColor="#AFEEEE" TextColor="Black" CornerRadius="20" FontSize="27" />
+
+                    <Button Text="6" Clicked="OnButtonClicked" Grid.Row="3" Grid.Column="2"
+        BackgroundColor="#AFEEEE" TextColor="Black" CornerRadius="20" FontSize="27" />
+
+                    <Button Text="7" Clicked="OnButtonClicked" Grid.Row="2" Grid.Column="0"
+        BackgroundColor="#AFEEEE" TextColor="Black" CornerRadius="20" FontSize="27" />
+
+                    <Button Text="8" Clicked="OnButtonClicked" Grid.Row="2" Grid.Column="1"
+        BackgroundColor="#AFEEEE" TextColor="Black" CornerRadius="20" FontSize="27" />
+
+                    <Button Text="9" Clicked="OnButtonClicked" Grid.Row="2" Grid.Column="2"
+        BackgroundColor="#AFEEEE" TextColor="Black" CornerRadius="20" FontSize="27" />
+
+                    <Button Text="0" Clicked="OnButtonClicked" Grid.Row="5" Grid.Column="1"
+        BackgroundColor="#AFEEEE" TextColor="Black" CornerRadius="20" FontSize="27" />
+
+                    <!-- Botón de punto decimal -->
+                    <Button Text="." Clicked="OnButtonClicked" Grid.Row="5" Grid.Column="2"
+        BackgroundColor="#E6E6FA" TextColor="Black" CornerRadius="20" FontSize="27" />
+                    <!--Botones operacionales -->
+                    <Button Text="+" Clicked="OnButtonClicked" Grid.Row="2" Grid.Column="3"
+        BackgroundColor="#FFC0CB" TextColor="Black" CornerRadius="20" FontSize="27" />
+
+                    <Button Text="-" Clicked="OnButtonClicked" Grid.Row="3" Grid.Column="3"
+        BackgroundColor="#FFC0CB" TextColor="Black" CornerRadius="20" FontSize="27" />
+
+                    <Button Text="x" Clicked="OnButtonClicked" Grid.Row="4" Grid.Column="3"
+        BackgroundColor="#FFC0CB" TextColor="Black" CornerRadius="20"  FontSize="27" />
+
+                    <Button Text="/" Clicked="OnButtonClicked" Grid.Row="5" Grid.Column="3"
+        BackgroundColor="#FFC0CB" TextColor="Black" CornerRadius="20" FontSize="27" />
+
+                    <!-- Botón de igual -->
+                    <Button Text="=" Clicked="OnButtonClicked" Grid.Row="5" Grid.Column="0"
+        BackgroundColor="#ab82ff" TextColor="White" CornerRadius="20" FontSize="27"/>
+
+                    <!-- Botón de limpiar -->
+                    <Button Text="C" Clicked="OnButtonClicked" Grid.Row="1" Grid.Column="0"
+        BackgroundColor="#eed2ee" TextColor="Black" CornerRadius="20" FontSize="27" />
+
+                    <!-- Botón de limpiar todo -->
+
+                    <Button Text="CE" Clicked="OnButtonClicked" Grid.Row="1" Grid.Column="1"
+        BackgroundColor="#eed2ee" TextColor="Black" CornerRadius="20" FontSize="27" />
+                </Grid>
+            </StackLayout>
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+
+</ContentPage>
+
